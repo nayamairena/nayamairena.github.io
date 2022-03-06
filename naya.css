@@ -1,13 +1,13 @@
 body {
-  background-color: #501537;
+  background-color: #606e64;
 }
 
 .navbar {
-  background-color: #3c1b43;
+  background-color: #d1b254;
 }
 
 .nav-link {
-  color: #c8963e;
+  color: #000000;
 }
 
 .nav-link:focus,
