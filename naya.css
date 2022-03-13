@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(2, 53, 53);
+  background-color: rgb(112, 224, 224);
 }
 
 .name {
@@ -13,6 +13,14 @@ body {
 }
 .navbar {
   background-color: #98d7eb;
+}
+
+#cat {
+  height: 300px;
+}
+
+#reu {
+  height: 280px;
 }
 
 .navbar-brand {
