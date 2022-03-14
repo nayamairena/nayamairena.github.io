@@ -2,12 +2,58 @@ body {
   background-color: #212227;
 }
 
+.accordion-body {
+  background-color: #c9c5bd;
+}
+
+.accordion-button:focus {
+  color: #7b6d8d;
+  box-shadow: 0 0 0 0.25rem #212227;
+}
+.accordion-button:not(.collapsed) {
+  color: #e4d1ad;
+  background-color: #7b6d8d;
+}
+
+.accordion-button {
+  color: #7b6d8d;
+  background-color: #e4d1ad;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e4d1ad'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.btn {
+  color: #e4d1ad;
+  background-color: #212227;
+}
+
+.btn:hover {
+  color: #212227;
+  background-color: #e4d1ad;
+}
+
 #cat {
-  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 400px;
 }
 
 #reu {
-  height: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  height: 400px;
+}
+
+.work {
+  color: #212227;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 #mypic {
@@ -17,7 +63,8 @@ body {
   width: 50%;
 }
 
-#aboutme {
+#aboutme,
+.card {
   background: linear-gradient(0deg, #e4d1ad 10%, #7b6d8d 100%);
   border-width: 0;
   font-family: monospace;
@@ -29,6 +76,18 @@ body {
   text-shadow: 1px 1px 3px #e4d1ad;
 }
 
+#sticker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .work {
+    text-align: center;
+  }
+}
 @media (min-width: 768px) {
   #aboutme {
     margin-top: 150px;
@@ -37,6 +96,22 @@ body {
   }
   #mypic {
     border-radius: 50px;
+    width: 100%;
+  }
+  #cat {
+    height: 300px;
+    width: 250px;
+  }
+
+  #reu {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    max-width: 300px;
+    height: 300px;
+  }
+
+  #sticker {
     width: 100%;
   }
 }
