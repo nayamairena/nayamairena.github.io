@@ -54,7 +54,9 @@ body {
   height: 400px;
 }
 
-.work {
+.work,
+.projects,
+.aboutme {
   color: #212227;
   font-family: monospace;
   font-size: 16px;
@@ -72,8 +74,6 @@ body {
 #contact {
   background: linear-gradient(0deg, #e4d1ad 10%, #7b6d8d 100%);
   border-width: 0;
-  font-family: monospace;
-  font-size: 16px;
 }
 
 #aboutme h2 {
@@ -88,9 +88,8 @@ body {
 }
 
 @media (min-width: 768px) {
-  #aboutme,
   #contact {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
     border-radius: 50px;
   }
