@@ -1,5 +1,6 @@
-#Final Project For Into to Web Dev
-##Naya Mairena Flores
+# Final Project For Into to Web Dev
+
+## Naya Mairena Flores
 
 This project is a personal website that I built for this class.
 The website showcases an introduction about myself, my previous experience, projects, and a contact form.
