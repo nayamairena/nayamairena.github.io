@@ -69,7 +69,8 @@ body {
 /*Fonts and background colors specifically for the cards.*/
 .work,
 .projects,
-.aboutme {
+.aboutme,
+#contact {
   color: #212227;
   font-family: monospace;
   font-size: 16px;
