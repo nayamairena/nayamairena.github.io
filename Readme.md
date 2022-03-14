@@ -1,4 +1,4 @@
-# Final Project For Into to Web Dev
+# Final Project For Intro to Web Dev
 
 ## Naya Mairena Flores
 
