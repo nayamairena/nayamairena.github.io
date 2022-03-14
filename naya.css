@@ -1,18 +1,5 @@
 body {
-  background-color: rgb(112, 224, 224);
-}
-
-.name {
-  color: #353232;
-  padding: 5px 5px 5px 5px;
-  font-size: 32px;
-  text-align: right;
-  text-shadow: 2px 2px 5px #e6cc3a;
-  font-weight: bold;
-  margin-right: 10px;
-}
-.navbar {
-  background-color: #98d7eb;
+  background-color: #212227;
 }
 
 #cat {
@@ -23,29 +10,62 @@ body {
   height: 280px;
 }
 
+#mypic {
+  display: block;
+  margin: 10px auto 10px auto;
+  border-radius: 50px;
+  width: 50%;
+}
+
+#aboutme {
+  background: linear-gradient(0deg, #e4d1ad 10%, #7b6d8d 100%);
+  border-width: 0;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+#aboutme h2 {
+  color: #27282e;
+  text-shadow: 1px 1px 3px #e4d1ad;
+}
+
+@media (min-width: 768px) {
+  #aboutme {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+  }
+  #mypic {
+    border-radius: 50px;
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: #7b6d8d;
+}
+
 .navbar-brand {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
+  color: #27282e;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #e4d1ad;
+  font-family: monospace;
   font-weight: bold;
 }
 
 .navbar-brand:hover {
-  color: rgb(224, 206, 100);
-  font-size: 28px;
-  font-weight: bold;
+  color: rgb(224, 221, 228);
 }
-.nav-item {
-  padding: 0px 5px 0px 5px;
-}
+
 .nav-link {
-  color: rgb(0, 0, 0);
-  font-size: 12px;
+  color: #27282e;
+  font-size: 14px;
+  text-shadow: 1px 1px 3px #e4d1ad;
+  font-family: monospace;
   font-weight: bold;
 }
 
-.nav-link:focus,
 .nav-link:hover {
-  color: rgb(224, 206, 100);
-  font-size: 18px;
-  font-weight: bold;
+  color: rgb(224, 221, 228);
+  font-size: 14px;
 }
