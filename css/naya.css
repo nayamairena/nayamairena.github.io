@@ -1,11 +1,12 @@
+/*Background colors for various things.*/
 body {
   background-color: #212227;
 }
-
 .accordion-body {
   background-color: #c9c5bd;
 }
 
+/*Change the color of the default accordion buttons to match my color theme*/
 .accordion-button:focus {
   color: #e4d1ad;
   box-shadow: 0 0 0 0.25rem #908c96;
@@ -14,7 +15,6 @@ body {
   color: #e4d1ad;
   background-color: #7b6d8d;
 }
-
 .accordion-button {
   color: #e4d1ad;
   background-color: #000000;
@@ -26,18 +26,19 @@ body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e4d1ad'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+/*Change button colors to match my color theme*/
 .btn {
   color: #e4d1ad;
   background-color: #212227;
   border-color: white;
 }
-
 .btn:hover {
   color: #212227;
   background-color: #e4d1ad;
   border-color: black;
 }
 
+/*Image resizing for adjustment preferences*/
 #cat {
   display: block;
   margin-left: auto;
@@ -45,7 +46,6 @@ body {
   width: 350px;
   height: 400px;
 }
-
 #reu {
   display: block;
   margin-left: auto;
@@ -53,33 +53,12 @@ body {
   max-width: 400px;
   height: 400px;
 }
-
-.work,
-.projects,
-.aboutme {
-  color: #212227;
-  font-family: monospace;
-  font-size: 16px;
-}
-
 #mypic {
   display: block;
   margin: 10px auto 10px auto;
   border-radius: 50px;
   width: 50%;
 }
-
-#aboutme,
-.card,
-#contact {
-  background: linear-gradient(0deg, #e4d1ad 10%, #7b6d8d 100%);
-  border-width: 0;
-}
-
-#aboutme h2 {
-  color: #27282e;
-}
-
 #sticker {
   display: block;
   margin-left: auto;
@@ -87,6 +66,25 @@ body {
   width: 100%;
 }
 
+/*Fonts and background colors specifically for the cards.*/
+.work,
+.projects,
+.aboutme {
+  color: #212227;
+  font-family: monospace;
+  font-size: 16px;
+}
+#aboutme,
+.card,
+#contact {
+  background: linear-gradient(0deg, #e4d1ad 10%, #7b6d8d 100%);
+  border-width: 0;
+}
+#aboutme h2 {
+  color: #27282e;
+}
+
+/*Media query for preferences in sizing when page is smaller*/
 @media (min-width: 768px) {
   #contact {
     margin-top: 100px;
@@ -100,7 +98,6 @@ body {
   #cat {
     width: 100%;
   }
-
   #reu {
     display: block;
     margin-left: auto;
@@ -108,27 +105,24 @@ body {
     max-width: 300px;
     height: 300px;
   }
-
   #sticker {
     width: 100%;
   }
 }
 
+/*Navigation bar preferences to fit my color theme*/
 .navbar {
   background-color: #7b6d8d;
 }
-
 .navbar-brand {
   color: #27282e;
   font-size: 30px;
   font-family: monospace;
   font-weight: bold;
 }
-
 .navbar-brand:hover {
   color: rgb(224, 221, 228);
 }
-
 .nav-link {
   margin-right: 5px;
   color: #27282e;
@@ -136,7 +130,6 @@ body {
   font-family: monospace;
   font-weight: bold;
 }
-
 .nav-link:hover {
   color: rgb(224, 221, 228);
 }
