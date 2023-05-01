@@ -1,23 +1,28 @@
 import React from 'react';
-import choco from '../Images/choc.png';
-import pdx from '../Images/flypdx.png';
+
 import MainBox from './MainBox';
 import { projects } from '../data';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Projects = () => {
   return (
-    <div>
-      <h1>My Projects</h1>
-      <div>
+    <Container className='my-5' style={{ textAlign: 'center' }}>
+      <h1>Software Projects</h1>
+      <Row>
         {projects.map((me) => (
-          <MainBox
-            pic={me.image}
-            title={me.title}
-            description={me.description}
-          />
+          <Col>
+            <MainBox
+              pic={me.image}
+              title={me.title}
+              description={me.description}
+              skills={me.skills}
+              link={me.link}
+              linkName={me.linkName}
+            />
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 };
 
