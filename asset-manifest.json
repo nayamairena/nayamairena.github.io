@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f875b34.css",
+    "main.js": "/static/js/main.18dfa32d.js",
+    "static/js/787.3ddec163.chunk.js": "/static/js/787.3ddec163.chunk.js",
+    "static/media/lingomed.gif": "/static/media/lingomed.c445b10a0c4744beb813.gif",
+    "static/media/geo.gif": "/static/media/geo.635268a5f61d42a0d4b5.gif",
+    "static/media/gameboy.png": "/static/media/gameboy.49c842ab3ee3efcce873.png",
+    "static/media/inductionme.png": "/static/media/inductionme.ca664c6d933007c0c1a4.png",
+    "static/media/presentation.jpg": "/static/media/presentation.61b9d0cc583e09849c3b.jpg",
+    "static/media/tamsticker.png": "/static/media/tamsticker.64597eeca80ee95e9c7a.png",
+    "static/media/reulogo.png": "/static/media/reulogo.e52044429212fd3225be.png",
+    "static/media/catimg.png": "/static/media/catimg.fb8d6c74123e9db92fb8.png",
+    "static/media/mypic.jpeg": "/static/media/mypic.5a7888957259d6a1ceef.jpeg",
+    "static/media/choc.png": "/static/media/choc.9133a9a7d12d49b441c3.png",
+    "static/media/bvlogo.png": "/static/media/bvlogo.654e69b7de47766af43e.png",
+    "index.html": "/index.html",
+    "main.6f875b34.css.map": "/static/css/main.6f875b34.css.map",
+    "main.18dfa32d.js.map": "/static/js/main.18dfa32d.js.map",
+    "787.3ddec163.chunk.js.map": "/static/js/787.3ddec163.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f875b34.css",
+    "static/js/main.18dfa32d.js"
+  ]
+}
