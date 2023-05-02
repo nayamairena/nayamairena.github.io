@@ -17,6 +17,7 @@ const Experience = () => {
           <Col>
             <MainBox
               pic={me.image}
+              pic2={me.image2}
               title={me.title}
               subtitle={me.subtitle}
               description={me.description}

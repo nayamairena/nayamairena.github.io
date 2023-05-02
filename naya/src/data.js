@@ -13,9 +13,11 @@ export const aboutme = {
 
 export const projects = [
   {
-    title: 'Personal Portfolio Website',
+    title: 'Personal Portfolio Website nayamairena.github.io',
+    subtitle: 'CS410: Intro to Web Development',
     description:
-      'This webpage was originally written in HTML, CS, and Javascript. It has been improved using React.',
+      'This webpage was originally written in HTML, CSS, and Javascript. It has recently been improved using React.' +
+      '\n\nFuture plans are to make UI animations and add a section for my art projects.',
     skills: 'React, Javascript, Node.js',
     image: '',
     link: 'https://github.com/nayamairena/nayamairena.github.io',
@@ -23,7 +25,7 @@ export const projects = [
   },
   {
     title: 'Lingo Medico',
-    subtitle: 'CS469 & CS470 - Software Engineering Senior Capstone',
+    subtitle: 'CS469 & CS470: Software Engineering Senior Capstone',
     description:
       'As a Senior Capstone project, we developed Lingo Medico, a mobile app aimed at assisting users traveling abroad with medical needs.  ' +
       'The user fills out a form that asks simple medical questions to be easily translated to the desired language. ' +
@@ -36,7 +38,7 @@ export const projects = [
   },
   {
     title: 'Geography Games',
-    subtitle: 'CS465 - Full Stack Web Development',
+    subtitle: 'CS465: Full Stack Web Development',
     description:
       'With a team, we built a full-stack web app using the MERN stack that hosted Geography games. Users are allowed to create profiles to keep track of their game scores. ' +
       'My focus was developing the front-end functionality and UI/UX. Using a collection of technologies and integrating them seamlessly was an important experience for me to better understand web development.',
@@ -47,10 +49,10 @@ export const projects = [
   },
   {
     title: 'Check The Fridge',
-    subtitle: 'CS454 - Software Engineering',
+    subtitle: 'CS454: Software Engineering',
     description:
-      'A web application that allows users to enter their current inventory of food/ingredients and integrated with mealDB API, search recipies they can create. ' +
-      'This project used C# for the back-end, React and Node.js for the front-end.',
+      'A web application that allows users to enter their current inventory of ingredients and get recipes they can create with those ingredients. ' +
+      'This project used C# for the back-end, React and Node.js for the front-end. TheMealDB API was used for the ingredients list and recipes',
     skills: 'C#, ASP.NET, React, Node.js, TheMealDB API, Visual Studio',
     image: '',
     link: 'https://github.com/Jarwhal3/Check-the-Fridge',
@@ -87,8 +89,9 @@ export const experience = [
     title: 'Software Development Intern',
     subtitle: 'SSI Shredding Systems, Inc. — Wilsonville, Oregon',
     description:
-      'I do front-end and back-end development for a in-house software application. The software is utilized by the sales team and engineer team. ' +
-      'It is ',
+      'SSI Shredding Systems designs and manufactures industrial shredders.' +
+      '\n\nI do front-end and back-end development for an in-house software application. The software is utilized by the sales team to keep track of shredder sales. ' +
+      'Users can create projects, shredder and system quotes, communication between sales and engineering, and much more.',
     skills: 'VB.NET, Microsoft SQL Server, Python',
     image: 'ssime.jpg',
     logo: 'ssilogo.png',
@@ -96,7 +99,13 @@ export const experience = [
   {
     title: 'IT Desk Support',
     subtitle: 'Computer Action Team - Portland State University',
-    description: 'Student volunteer assisting the MCECS IT department',
+    description:
+      'The Computer Action Team is a program at PSU for students to have the opportunity to learn IT skills.' +
+      '\n\nI delivered IT support to fellow students, faculty, and staff in-person and remotely. My assistance consisted of: managing ' +
+      'and accessing their MCECS accounts, guidance on connecting remotely to our servers for their courses, and handling daily ' +
+      'support tickets. I was promoted to the leadership team where I helped make important decisions and mentor new student volunteers.' +
+      '\n\nI also designed the CAT sticker for the 2022 year.',
+    skills: 'Linux, Windows, Vim, RDP, OpenVPN',
     image: 'catmugshot.png',
     image2: 'catstickers.jpeg',
     logo: 'catimg.png',
@@ -106,9 +115,10 @@ export const experience = [
     subtitle:
       'NSF REU: Computational Modeling Serving the City - Portland State University',
     description:
-      ' ' +
-      'A 10-week summer internship focused on utilizing computational modeling to serve the community. A research based opportunity to ' +
-      'undergraduate students.',
+      'A 10-week summer internship focused on utilizing computational modeling to serve the community.' +
+      '\n\nI explored the research process as an optimistic undergrad student. Learned about computational modeling skills and how ' +
+      'to apply them to my research project based on analyzing data from rivers.',
+    skills: 'R Programming Language, GIS Software',
     image: 'presentation.jpg',
     link: 'https://pdxscholar.library.pdx.edu/reu_reports/4/',
     linkName: 'Research Paper',
@@ -117,7 +127,11 @@ export const experience = [
   {
     title: 'Shift Lead',
     subtitle: 'Burgerville - PDX Airport',
-    description: '..',
+    description:
+      'Burgerville is a local fast food restaurant known for using local ingredients. I was there for 3 years and excelled throughout my time there.' +
+      '\n\nI have a keen attention to detail in all aspects of the restaurant and I am persistent on maintaining all workstations organized for ' +
+      'a successful workflow. ' +
+      'I was constantly moving around through all the positions in the restaurant, which enhanced my flexibility and multitasking skills.',
     image: 'pdxstar.jpg',
     link: 'https://portside.portofportland.online/2020/10/celebrating-superstar-pdx-people/',
     linkName: 'PDX Award Article',
