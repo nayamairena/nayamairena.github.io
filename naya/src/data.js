@@ -2,11 +2,12 @@ export const aboutme = {
   title: 'Naya Mairena',
   description:
     'I recently graduated from Portland State University with a Bachelors of Science in ' +
-    'Computer Science and a minor in Mathematics. My software development interests are in ' +
-    'Web/Mobile app development, Front-end, Full Stack, and UI/UX. I am constantly challenging myself to learn various languages, frameworks, and softwares. ' +
-    'When I am not occupied with coding projects, my various hobbies ' +
+    'Computer Science and a minor in Mathematics.\n\nMy software development interests are in ' +
+    'Web/Mobile app development, Front-end, Full Stack, and UI/UX. I am constantly challenging myself to learn new languages, frameworks, and softwares. ' +
+    ' My current goal is to embark on new opportunities and make meaningful contributions in the tech industry.' +
+    '\n\nWhen I am not occupied with coding projects, my various hobbies ' +
     'include trading and collecting Pokemon/MTG cards, painting, pottery, house plants, and spending quality time ' +
-    'with my wonderful cats. I am eager to embark on new opportunities and make meaningful contributions in the tech industry.',
+    'with my wonderful cats.',
   image: 'mypic.jpeg',
 };
 
@@ -21,7 +22,8 @@ export const projects = [
     linkName: 'Github Repo',
   },
   {
-    title: 'CS469 & CS470 - Software Engineering Senior Capstone: Lingo Medico',
+    title: 'Lingo Medico',
+    subtitle: 'CS469 & CS470 - Software Engineering Senior Capstone',
     description:
       'As a Senior Capstone project, we developed Lingo Medico, a mobile app aimed at assisting users traveling abroad with medical needs.  ' +
       'The user fills out a form that asks simple medical questions to be easily translated to the desired language. ' +
@@ -33,7 +35,8 @@ export const projects = [
     linkName: 'Video Presentation',
   },
   {
-    title: 'CS465 - Full Stack Web Development: Geography Games',
+    title: 'Geography Games',
+    subtitle: 'CS465 - Full Stack Web Development',
     description:
       'With a team, we built a full-stack web app using the MERN stack that hosted Geography games. Users are allowed to create profiles to keep track of their game scores. ' +
       'My focus was developing the front-end functionality and UI/UX. Using a collection of technologies and integrating them seamlessly was an important experience for me to better understand web development.',
@@ -43,16 +46,17 @@ export const projects = [
     linkName: 'Github Repo',
   },
   {
-    title: 'CS454 - Software Engineering: Check The Fridge',
+    title: 'Check The Fridge',
+    subtitle: 'CS454 - Software Engineering',
     description:
-      'A web application that allows users to enter their current stock of ingredients and integrated with mealDB API, search recipies they can create. ' +
+      'A web application that allows users to enter their current inventory of food/ingredients and integrated with mealDB API, search recipies they can create. ' +
       'This project used C# for the back-end, React and Node.js for the front-end.',
     skills: 'C#, ASP.NET, React, Node.js, TheMealDB API, Visual Studio',
     image: '',
     link: 'https://github.com/Jarwhal3/Check-the-Fridge',
     linkName: 'Github Repo',
   },
-  {
+  /* {
     title: 'CS300 - Elements of Software Engineering: Chocoholics Anonymous',
     description:
       'The project is written in Python and utilizes SQLite for the databases. ' +
@@ -64,7 +68,7 @@ export const projects = [
     link: 'https://github.com/DebuggerDan/cs300g4projectfall21',
     linkName: 'Github Repo',
   },
-  /*{
+{
     title: 'FLYPDX Flight Time Site Scraper',
     description: 'This project is written in Python. The inspiration for this project came from my current job at PDX Burgerville. '+
     'I usually work at 4:00am, when we first open the restaurant and one of the tasks of the opening manager is to gather the departure times '+
@@ -81,28 +85,42 @@ export const projects = [
 export const experience = [
   {
     title: 'Software Development Intern',
-    subtitle: 'SSI Shredding Systems',
+    subtitle: 'SSI Shredding Systems, Inc. — Wilsonville, Oregon',
     description:
-      'I work on an in-house software for the sales team. The software is utilized by the sales team and engineer team. ' +
+      'I do front-end and back-end development for a in-house software application. The software is utilized by the sales team and engineer team. ' +
       'It is ',
-    image: '',
+    skills: 'VB.NET, Microsoft SQL Server, Python',
+    image: 'ssime.jpg',
+    logo: 'ssilogo.png',
   },
   {
     title: 'IT Desk Support',
     subtitle: 'Computer Action Team - Portland State University',
     description: 'Student volunteer assisting the MCECS IT department',
-    image: 'catimg.png',
+    image: 'catmugshot.png',
+    image2: 'catstickers.jpeg',
+    logo: 'catimg.png',
   },
   {
-    title: 'NSF REU Intern: Computational Modeling Serving the City ',
-    subtitle: 'Portland State University',
-    description: '..',
-    image: '',
+    title: 'Research Intern',
+    subtitle:
+      'NSF REU: Computational Modeling Serving the City - Portland State University',
+    description:
+      ' ' +
+      'A 10-week summer internship focused on utilizing computational modeling to serve the community. A research based opportunity to ' +
+      'undergraduate students.',
+    image: 'presentation.jpg',
+    link: 'https://pdxscholar.library.pdx.edu/reu_reports/4/',
+    linkName: 'Research Paper',
+    logo: 'reulogo.png',
   },
   {
-    title: 'Shift Lead: Burgerville ',
-    subtitle: 'PDX Airport',
+    title: 'Shift Lead',
+    subtitle: 'Burgerville - PDX Airport',
     description: '..',
-    image: '',
+    image: 'pdxstar.jpg',
+    link: 'https://portside.portofportland.online/2020/10/celebrating-superstar-pdx-people/',
+    linkName: 'PDX Award Article',
+    logo: 'bvlogo.png',
   },
 ];
